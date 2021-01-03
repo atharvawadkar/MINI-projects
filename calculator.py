@@ -20,8 +20,8 @@ def mul(a,b):
 def div(a,b):
     q=a%b
     r=a/b
-    print("\n the quotient is  %s  =",q)
-    print("\n the  remainder is  %s  =",r)
+    print("\n the quotient is    =",q)
+    print("\n the  remainder is    =",r)
 
 def sqr(a):
     x=math.sqrt(a)
