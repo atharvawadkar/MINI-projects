@@ -49,23 +49,24 @@ while(1):
         num1=int(input(">"))
         num2=int(input(">"))
         m=sub(num1,num2)
-        print("the sub is %s ",m)
+        print("the sub is = ",m)
     elif choice==3:
         print("\n \n Enter the two number")
         num1=int(input(">"))
         num2=int(input(">"))
         p=mul(num1,num2)
-        print("the mul is %s ",p)
+        print("the mul is = ",p)
     elif choice==4:
         print("\n \n Enter the two number")
         num1=int(input(">"))
         num2=int(input(">"))
         div(num1,num2)
      
-    elif choice==2:
+    elif choice==5:
         print("\n \n Enter the two number")
         num1=int(input(">"))
         r=sqrt(num1)
+        print("\n The squqre root of number is= ",r)
     else:
         print("\n you choose to exit, BYE")
         break
